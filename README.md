@@ -26,7 +26,7 @@ Include the css file into your HEAD tag
 * bootstrap (optional)
  
 ## Usage
-Create a DIV where you want to put the form
+Create a DIV where you want to build the form
 ```html
 <div id="lead_form"></div>
 ```
