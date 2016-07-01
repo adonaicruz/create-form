@@ -15,7 +15,7 @@ You can find the source files in the directory:
 ```
 
 ### Style (optional)
-Include the css file into your <head> tag
+Include the css file into your HEAD tag
 
 `If you use the Bootstrap framework this file is not required.`
 ```html
@@ -26,7 +26,7 @@ Include the css file into your <head> tag
 * bootstrap (optional)
  
 ## Usage
-Create a <div> where you want to put the form
+Create a DIV where you want to put the form
 ```html
 <div id="lead_form"></div>
 ```
