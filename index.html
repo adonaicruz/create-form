@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Security-Policy">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<title>Plugin - Create Form</title>
+		<!-- Jquery -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="lib/create-form/create-form.js"></script>
+		<!-- Bootstrap -->
+    	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    	<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div id="integration_form"></div>
+		
+	</body>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() { 
+			options = { 
+				  'token':'62bb61431348e22850828a5829c4373faafe29c1'
+				, 'secret':'51a266c2844ccd5cac83d88de88d82d05358aa51'
+				, 'fields':{ 
+					  'estado':['PR','SC','SP','RS']
+					, 'nivel':['Iniciante','Intermediário', 'Avançado', 'Ninja'] 
+				} 
+			};
+			$('#integration_form').createForm(options); 
+		});
+	</script>
+	
+	
+</html>
